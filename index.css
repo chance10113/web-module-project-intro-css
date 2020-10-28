@@ -13,28 +13,99 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 0;  
+/*border: 0;*/  
 font-size: 100%;  
 font: inherit;  
 font-family: 'Roboto Mono', monospace;
 vertical-align: baseline;  
-}
+box-sizing:border-box
+} 
+
 
 /*YOSEMITE: font-family: 'Chelsea Market', cursive;*/
 /* EVERYTHING ELSE:font-family: 'Roboto Mono', monospace;*/
-
+*{
+    border:2px solid red;
+}
 .plan {
+    color: white;
+    border:1% solid #FF764E;
     background-color: #FF764E;
+    padding:1%;
+    margin:1% 5%; 
+    display: inline-block;
+    border-radius: 13%;
+    text-align: center;
+    width:20%;
 }
 
 .learn {
+    color: white;
+    border:1% solid #5ED3EB;
     background-color: #5ED3EB;
+    padding:1%;
+    margin:1%; 
+    display: inline-block;
+    border-radius: 13%;
+    text-align: center;
+    width:20%;
 }
 
 .get {
+    color: white;
+    border:1% solid #FFCD69;
     background-color: #FFCD69;
+    padding:1%;
+    margin:1% 5%; 
+    display: inline-block;
+    border-radius: 13%;
+    text-align: center;
+    width:20%;
+}
+
+.header-right {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    
 }
 
 h1{
     font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 3.25rem;
+}
+
+.section-1 {
+    background-color: #DDB9A3;
+}
+
+footer{
+    background-color:#F9E7DC;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.header-img{
+    padding:2%;
+    margin:2% 0 0 13%;
+    width:18%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.flat-icon {
+    width: 8%;
+    display:block;
+    margin: 2% auto auto auto;
+    
+}
+
+.footer-img {
+    width: 100%;
+    height: 30vh;
+    background-position: top;
+    background-size: cover;
 }
