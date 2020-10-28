@@ -24,15 +24,13 @@ box-sizing:border-box
 
 /*YOSEMITE: font-family: 'Chelsea Market', cursive;*/
 /* EVERYTHING ELSE:font-family: 'Roboto Mono', monospace;*/
-*{
-    border:2px solid red;
-}
+
 .plan {
     color: white;
     border:1% solid #FF764E;
     background-color: #FF764E;
     padding:1%;
-    margin:1% 5%; 
+    margin:1% 10%; 
     display: inline-block;
     border-radius: 13%;
     text-align: center;
@@ -64,16 +62,19 @@ box-sizing:border-box
 }
 
 .header-right {
-    width: 70%;
+    width: 50%;
     display: inline-block;
     text-align: center;
     
 }
-
+.header-right h4{
+    padding:1%;
+    margin:0 auto;
+}
 h1{
     font-family: 'Chelsea Market', cursive;
     text-align: center;
-    font-size: 3.25rem;
+    font-size: 280%;
 }
 
 .section-1 {
