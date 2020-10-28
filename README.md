@@ -18,7 +18,7 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 ## Instructions
 
 ### Task 1: Set Up The Project With Git
-
+DISPLAY INLINE AND BLOCK, NO FLEXBOX TODAY, STAY AWAY FROM PX
 Follow these steps to set up and work on your project:
 
 - [ ] Create a forked copy of this project.
